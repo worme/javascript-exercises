@@ -3,7 +3,6 @@ const reverseString = function(inString) {
     let lastElement = -1;
     for (let index = 0; index < inString.length; index++) {
         const element = inString[index];
-        // console.log(element)
         if (newString === "") { 
             newString = newString + inString.slice(lastElement);
         } else {
@@ -16,4 +15,3 @@ const reverseString = function(inString) {
 
 // Do not edit below this line
 module.exports = reverseString;
-// reverseString("Hello!")
